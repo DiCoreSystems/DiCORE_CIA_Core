@@ -2,9 +2,9 @@
 ## DiCORE Core Modul ##
 
 ----------
-DiCORE (Distributed Cooperative Evolution) provides a solution for developers to collaborated co-evolution. The framework determines the kind of changes and the affected components in a business process and shares them with dependent clients. The framework aims to handle the co-evolution process by agents automatically.
+DiCORE (Distributed Cooperative Evolution) provides a solution for developers to __collaborated co-evolution__. The framework determines the kind of changes and the affected components in a business process and shares them with dependent clients. The framework aims to handle the co-evolution process by agents automatically.
 
-This project implements the main component of our prototype. 
+This project implements the main component of our __prototype__.
 
 ----------
 ## How To Run ##
