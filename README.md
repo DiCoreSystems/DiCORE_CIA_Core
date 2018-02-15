@@ -7,6 +7,7 @@ This project implements the multi-agent system, which is the __main component__ 
 
 __DiCORE-CIA (Change Impact Analysis)__ 
 supports to recognize changes and their consequences. In detail, it detects a change, categorizes the change, analyses the affected components.
+
 __iCORE-CEC (Co-Evolution Coordination)__
 realizes fully autonomous agent collaboration for service co-evolution.
 
