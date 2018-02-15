@@ -1,0 +1,116 @@
+{"0": { 
+"id": "0", 
+"name": "ProtoTypeWorkflow.bpmn", 
+"status": "null", 
+"type": "UNDEFINED", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphModel", 
+"items": {
+"1": { 
+"id": "0", 
+"name": "startevent__2", 
+"status": "undefined", 
+"type": "e", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"2": { 
+"id": "1", 
+"name": "endevent__3", 
+"status": "undefined", 
+"type": "e", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"3": { 
+"id": "2", 
+"name": "webviewservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"4": { 
+"id": "3", 
+"name": "dataanalysisservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"5": { 
+"id": "4", 
+"name": "poiservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"6": { 
+"id": "5", 
+"name": "gpsservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"7": { 
+"id": "6", 
+"name": "mapservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"8": { 
+"id": "7", 
+"name": "dbservice", 
+"status": "undefined", 
+"type": "a", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphNode" 
+},
+"9": { 
+"id": "8", 
+"source": "7", 
+"target": "2", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"10": { 
+"id": "9", 
+"source": "2", 
+"target": "1", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"11": { 
+"id": "10", 
+"source": "3", 
+"target": "7", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"12": { 
+"id": "11", 
+"source": "0", 
+"target": "4", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"13": { 
+"id": "12", 
+"source": "4", 
+"target": "5", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"14": { 
+"id": "13", 
+"source": "5", 
+"target": "6", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+},
+"15": { 
+"id": "14", 
+"source": "6", 
+"target": "3", 
+"status": "undefined", 
+"class": "class de.uniks.vs.evolution.graphmodels.GraphEdge" 
+}
+}
+}
+}
+

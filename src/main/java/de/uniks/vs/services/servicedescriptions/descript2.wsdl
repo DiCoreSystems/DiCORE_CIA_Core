@@ -1,0 +1,54 @@
+<wsdl:definitions name="ValidationService"
+                  targetNamespace="http://xmlns.oracle.com/NTApplication/ValidationService"
+                  xmlns:client="http://xmlns.oracle.com/NTApplication/ValidationService"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/">
+
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema">
+            <import namespace="http://xmlns.oracle.com/NTApplication/ValidationService" schemaLocation="../xsd/ValidationService.xsd"/>
+        </schema>
+    </wsdl:types>
+
+    <wsdl:message name="ValidationProcessRequestMessage">
+        <wsdl:part name="payload" element="client:process"/>
+    </wsdl:message>
+
+    <wsdl:message name="ValidationProcessResponseMessage">
+        <wsdl:part name="payload" element="client:processResponse"/>
+    </wsdl:message>
+
+    <wsdl:portType name="ValidationService">
+        <wsdl:operation name="validate">
+            <wsdl:input message="client:ValidationProcessResponseMessage"/>
+            <wsdl:output message="client:ValidationProcessResponseMessage"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="ValidationServiceBinding" type="client:ValidationService">
+        <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="validate">
+            <soap:operation style="document" soapAction="process"/>
+            <wsdl:input>
+                <soap:body use="literal" namespace="http://xmlns.oracle.com/NTApplication/ValidationService"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" namespace="http://xmlns.oracle.com/NTApplication/ValidationService"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:binding name="ValidationServiceJMSBinding" type="client:ValidationService">
+        <soap:binding transport="http://www.w3.org/2010/soapjms"/>
+        <wsdl:operation name="validate">
+            <soap:operation style="document" soapAction="process"/>
+            <wsdl:input>
+                <soap:body use="literal" namespace="http://xmlns.oracle.com/NTApplication/ValidationService"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" namespace="http://xmlns.oracle.com/NTApplication/ValidationService"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+
+</wsdl:definitions>
