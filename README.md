@@ -3,7 +3,7 @@
 
 ----------
 
-Our project 
+This project implmenets a first prototype of our multi-agent system based on the PROSECCO project. 
 
 ----------
 ## How To Run ##
