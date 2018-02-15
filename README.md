@@ -1,6 +1,5 @@
-![](http://www.aridhia.com/wp-content/uploads/2015/11/glasgowuni-logo.jpg)
 
-DiCore Core Modul
+## DiCore Core Modul ##
 
 ----------
 
