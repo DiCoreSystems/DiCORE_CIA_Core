@@ -6,7 +6,6 @@ DiCORE (Distributed Cooperative Evolution) provides a solution for developers to
 
 This project implements the multi-agent system, which is the __main component__ of the DiCORE project.
 
-
 ----------
 ## How To Run ##
 
