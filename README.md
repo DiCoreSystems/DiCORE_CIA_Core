@@ -1,15 +1,13 @@
 
-# DiCORE Core Modul #
+# DiCORE Core Module #
 
 ----------
 DiCORE (Distributed Cooperative Evolution) provides a solution for developers to __collaborated co-evolution__. The framework determines the kind of changes and the affected components in a business process and shares them with dependent clients. The framework aims to handle the co-evolution process by agents automatically.
-This project implements the multi-agent system, which is the __main component__ of the DiCORE project and comprises two additonal modules.
+This project implements the multi-agent system, which is the __main component__ of the DiCORE project and comprises two additional modules:
 
-
-## DiCORE-CIA (Change Impact Analysis) ## 
+__DiCORE-CIA (Change Impact Analysis)__ 
 supports to recognize changes and their consequences. In detail, it detects a change, categorizes the change, analyses the affected components.
-
-## iCORE-CEC (Co-Evolution Coordination) ## 
+__iCORE-CEC (Co-Evolution Coordination)__
 realizes fully autonomous agent collaboration for service co-evolution.
 
 ----------
