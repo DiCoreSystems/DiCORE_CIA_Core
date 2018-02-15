@@ -25,6 +25,7 @@ This project implements the main component of our __prototype__.
  - Clingo4j - https://github.com/lorislab/clingo4j
  - JGraphX - https://github.com/jgraph/jgraphx
  - Yaoqiang BPMN Editor - https://sourceforge.net/projects/bpmn/files/?source=navbar
+ - Glassfish - http://www.oracle.com/technetwork/middleware/glassfish/overview/index.html
  
 ----------
 ## Authors ##
