@@ -10,7 +10,7 @@ This project implements the main component.
 ## How To Run ##
 
  1. Extract the contents of *src/* to your project folder
- 2. Add the dependenies to your java project (*dicore-cia-graph-based-pattern*, *dicore-cia-asp*, and external libraries)
+ 2. Add the dependenies to your java project (*dicore-cia-graph-based-pattern*, *dicore-cia-asp*, *dicore-cia-behaviour*, and external libraries)
  2. Run *gradle* 
 
 ----------
