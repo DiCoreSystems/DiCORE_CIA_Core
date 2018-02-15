@@ -14,7 +14,7 @@ This project implements the __main component__ and a first __prototype__.
  2. Run *gradle* 
 
 ----------
-## How To Run Tests ##
+## How To Run Test Scenario ##
 
  1. Run `$ StartServices ` in the project de/uniks/vs/scenario folder 
  2. Run `$ StartClientApplication ` in the project de7uniks/vs/scenario folder
