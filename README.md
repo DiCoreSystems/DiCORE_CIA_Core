@@ -19,7 +19,8 @@ Our project
 ----------
 ## Libraries Used ##
 
+ - Clingo4j - https://github.com/lorislab/clingo4j
  - JGraphX - https://github.com/jgraph/jgraphx
- 
+ - Yaoqiang BPMN Editor - https://sourceforge.net/projects/bpmn/files/?source=navbar
 ----------
 ## Authors ##
